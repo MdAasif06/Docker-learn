@@ -1,0 +1,91 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f0f4f8;
+  padding: 20px;
+  color: #333;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Heading styling */
+h1 {
+  color: #1e3a8a;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+/* Paragraph styling */
+p {
+  color: #555;
+  margin-bottom: 30px;
+  font-size: 1rem;
+}
+
+/* Form styling */
+form {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Form group styling */
+form div {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+/* Labels styling */
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #1e3a8a;
+}
+
+/* Input styling */
+form input {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #1e3a8a;
+  outline: none;
+  box-shadow: 0 0 5px rgba(30, 58, 138, 0.3);
+}
+
+/* Button styling */
+button#formBtn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button#formBtn:hover {
+  background-color: #3749b0;
+}
